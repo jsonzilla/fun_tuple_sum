@@ -57,6 +57,13 @@ object TupleSum extends App {
 
   println(l.sum) //It works
 
+  val lt = List(
+    1 -> 1 -> 3,
+    2 -> 3 -> -2,
+    3 -> 3 -> 2)
+
+  println(lt.sum) //It works
+
   /*
    * But let's take a deeper look... which features does a monoid owe?
    *
@@ -99,6 +106,7 @@ object TupleSum extends App {
 
     println(l.sum)
 
+    println(lt.sum) //It works
 
   }
 
